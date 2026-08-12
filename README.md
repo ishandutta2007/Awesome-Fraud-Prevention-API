@@ -50,7 +50,7 @@ All open-source repositories are listed below, sorted by **GitHub Star Count** i
 
 ### 🌟 Top Open-Source Frameworks & Libraries (Sorted by Stars ⭐️)
 
-| Project | Description | License | GitHub Stars ⭐️ | Focus / Notes |
+| Project | Description | License | GitHub_Stars ⭐️ | Focus / Notes |
 |---------|-------------|---------|----------------|---------------|
 | **[FingerprintJS](https://github.com/fingerprintjs/fingerprintjs)** | Browser fingerprinting library for fraud detection, bot mitigation, and user identification using browser signals. | BSL 1.1 / Open | **[<img src="https://img.shields.io/github/stars/fingerprintjs/fingerprintjs?style=social&color=white" alt="FingerprintJS Stars"/>](https://github.com/fingerprintjs/fingerprintjs/stargazers)** | Client-side device & browser fingerprinting |
 | **[SHAP](https://github.com/slundberg/shap)** | Game-theoretic approach to explain the outputs of any machine learning fraud scoring model. | MIT | **[<img src="https://img.shields.io/github/stars/slundberg/shap?style=social&color=white" alt="SHAP Stars"/>](https://github.com/slundberg/shap/stargazers)** | Model explainability & auditability |
