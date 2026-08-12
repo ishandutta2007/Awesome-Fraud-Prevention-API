@@ -1,99 +1,94 @@
 # Awesome-Fraud-Prevention-API
 
-## Top Website Monitoring Tools Ecosystem
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Uptime Checks, Synthetic Monitoring, Status Pages, Alerting & Performance Observability*
-**Last updated: August 2026**
+## Top Fraud Prevention APIs & Platforms
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Website Monitoring / Uptime Monitoring**. These tools continuously probe websites, APIs, ports, SSL certificates, and services from global locations, detect downtime or degradation, send multi-channel alerts, and often provide public status pages and historical reporting.
+A curated list of leading fraud prevention, risk scoring, and abuse detection platforms for e-commerce, payments, account protection, chargeback management, and real-time transaction monitoring.  
+**Primary focus: open-source software.**
 
-**Examples** include Pingdom, UptimeRobot, Better Stack, Uptime.com, StatusCake, Site24x7, Freshping, HetrixTools, Hyperping, Montastic (the category leaders and popular options).
+Commercial / hosted platforms are listed separately for completeness. Open-source alternatives and community tools are emphasized throughout.
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, full data ownership, unlimited monitors, config-as-code, and integration with existing observability stacks — ideal for developers, SREs, homelabbers, and companies building transparent, cost-controlled monitoring solutions.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites / GitHub repos.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-- **[Pingdom](https://www.pingdom.com/)**  
-  Established SolarWinds tool for uptime, page-speed waterfalls, multi-step transaction monitoring, and real-user monitoring from 100+ global locations.
-- **[UptimeRobot](https://uptimerobot.com/)**  
-  Popular budget-friendly uptime monitor with a generous free tier (50 monitors), keyword checks, status pages, and broad alerting integrations.
-- **[Better Stack](https://betterstack.com/)** (formerly Better Uptime)  
-  Modern platform combining uptime monitoring, logs, on-call scheduling, incident management, and beautiful status pages.
-- **[Uptime.com](https://uptime.com/)**  
-  Enterprise-oriented monitoring with strong SLA reporting, synthetic checks, and multi-location coverage.
-- **[StatusCake](https://www.statuscake.com/)**  
-  Feature-rich monitoring supporting HTTP, TCP, DNS, SMTP, SSH, page-speed, domain, and SSL checks with status pages.
-- **[Site24x7](https://www.site24x7.com/)**  
-  Comprehensive Zoho/ManageEngine all-in-one suite covering website, synthetic, RUM, server, network, and cloud monitoring.
-- **[Freshping](https://www.freshworks.com/)**  
-  Simple Free-tier focused uptime monitoring (historically popular for 50 free monitors; check current availability).
-- **[HetrixTools](https://hetrixtools.com/)**  
-  Affordable uptime + IP/domain blacklist monitoring with free tier and useful server-oriented features.
-- **[Hyperping](https://hyperping.com/)**  
-  Clean all-in-one monitoring with fast check intervals, on-call, and polished status pages.
-- **[Montastic](https://www.montastic.com/)**  
-  Straightforward website uptime monitoring service focused on simplicity and reliability alerts.
-- **[Checkly](https://www.checklyhq.com/)**  
-  Developer-centric synthetic monitoring and API checks with Playwright, monitoring-as-code, and CI integration.
-- **[Pulsetic](https://pulsetic.com/)**  
-  Modern tool emphasizing beautiful status pages and multi-channel alerting.
-- **[Oh Dear](https://ohdear.app/)**  
-  Developer-friendly monitoring with consistent feature sets across plans and strong alerting.
-
-## Open-Source GitHub Projects
-- **[Uptime Kuma](https://github.com/louislam/uptime-kuma)**  
-  The most popular self-hosted uptime monitor (90k+ stars). Beautiful reactive UI, 20+ monitor types (HTTP, TCP, Ping, DNS, Docker, etc.), 90+ notification channels, status pages, certificate monitoring, and easy Docker deployment.
-- **[Gatus](https://github.com/TwiN/gatus)**  
-  Lightweight, developer-oriented health dashboard written in Go. YAML config-as-code, advanced conditions (status, body, JSONPath, cert expiry), multi-protocol checks, badges, and very low resource usage.
-- **[Upptime](https://github.com/upptime/upptime)**  
-  Completely free uptime monitor and status page powered purely by GitHub Actions, Issues, and Pages — zero infrastructure required beyond a GitHub repo.
-- **[OpenStatus](https://github.com/openstatusHQ/openstatus)**  
-  Open-source status page + uptime/API monitoring platform with multi-region checks, monitoring-as-code (YAML/Terraform), and self-hostable architecture (AGPL).
-- **[OneUptime](https://github.com/OneUptime/oneuptime)**  
-  Full open-source observability platform replacing multiple SaaS tools: uptime monitoring, status pages, on-call, incident management, logs, traces, metrics, and APM (Apache 2.0).
-- **[Kuvasz](https://github.com/kuvasz-uptime/kuvasz)**  
-  Modern self-hosted uptime & SSL monitoring with status pages, YAML IaC support, full REST API, Prometheus/OpenTelemetry exporters, multi-user, and maintenance windows.
-- **[Statping-ng](https://github.com/statping-ng/statping-ng)**  
-  Actively maintained fork of Statping — single Go binary for HTTP/TCP/UDP/ICMP/gRPC monitoring, beautiful customizable status pages, graphs, and many notifiers.
-- **[Healthchecks](https://github.com/healthchecks/healthchecks)**  
-  Open-source cron job and “dead man’s switch” monitoring (Python/Django). Ideal for scheduled tasks, backups, and background jobs; also self-hostable with a rich dashboard and integrations.
-- **[Prometheus + Blackbox Exporter](https://github.com/prometheus/blackbox_exporter)**  
-  Industry-standard combination for probing HTTP, HTTPS, DNS, TCP, ICMP endpoints and feeding metrics into Prometheus + Alertmanager + Grafana dashboards.
-- **[Cachet](https://github.com/cachethq/cachet)**  
-  Classic open-source status page system focused on clear public communication of service status and incidents.
-- **[Peekaping](https://peekaping.com/)** (open-source)  
-  Modern Go + React self-hosted uptime monitor supporting HTTP, TCP, Ping, DNS, databases, Docker, gRPC, and branded status pages.
-- **[Overcheck](https://github.com/overcheck/overcheck)**  
-  API-first, config-as-code, multi-user self-hosted uptime monitor designed for teams that outgrow single-user tools (Postgres-backed).
-
-### Additional Strong Open-Source Options
-- **[Checkmate](https://github.com/bluewave-labs/checkmate)** — Modern UI with status pages and optional agent-based monitoring.
-- **[HertzBeat](https://github.com/apache/hertzbeat)** — Apache project for comprehensive monitoring including websites, databases, and network devices.
-- **[Netdata](https://github.com/netdata/netdata)** — Real-time metrics with some endpoint checking capabilities.
-- **[Zabbix](https://github.com/zabbix/zabbix)** / **[Icinga](https://github.com/Icinga/icinga2)** / **[LibreNMS](https://github.com/librenms/librenms)** — Enterprise-grade open-source monitoring platforms that include website/service checks.
-- Community tools built around **InfluxDB + Grafana**, **Node-RED**, or simple scripts using **curl + cron + notification webhooks**.
-
-**Frameworks for building custom systems**: Combine **Uptime Kuma** or **Gatus** with **Prometheus + Grafana**, **Alertmanager**, **n8n/Node-RED** for workflows, and self-hosted status pages for fully owned, unlimited, transparent website monitoring stacks.
-
-## How to Contribute
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Website monitoring tools should be evaluated for false-positive rates, check frequency, data retention, and alerting reliability.
-- Self-hosted open-source solutions require proper security hardening, high availability of the monitoring instance itself, and backup of historical data.
 ---
-**Made for developers, SREs, DevOps engineers, agency owners, and anyone who wants reliable, transparent website & service monitoring.**
-Let's make uptime monitoring more open, self-hostable, and developer-friendly.
+
+## SaaS / Hosted Platforms
+
+| Platform | Description | Key Focus |
+|----------|-------------|-----------|
+| **[Sift](https://sift.com/)** | Machine-learning fraud platform with real-time risk scores, global data network, account defense, content integrity, and workflow automation. Strong for payments, ATO, and custom risk models. | Real-time risk scoring + global signals |
+| **[Signifyd](https://www.signifyd.com/)** | E-commerce fraud protection with chargeback guarantee, network intelligence, anomaly detection, and pre-auth screening. Shifts liability and aims to increase approval rates. | Guaranteed fraud protection + conversion |
+| **[Forter](https://www.forter.com/)** | Decisioning platform for fraud, abuse, account protection, and policy enforcement. Real-time approve/decline with identity and behavioral insights across the customer journey. | Identity-centric fraud + abuse prevention |
+| **[Riskified](https://www.riskified.com/)** | E-commerce fraud prevention with chargeback guarantee, adaptive checkout, merchant network intelligence, and real-time decisioning optimized for approvals. | Chargeback guarantee + approval optimization |
+| **[SEON](https://seon.io/)** | Real-time fraud prevention and AML platform with rich data enrichment (email, phone, IP, digital footprint), customizable scoring engine, and rule + AI hybrid decisioning. | Data enrichment + flexible scoring |
+| **[Fraud.net](https://www.fraud.net/)** | Enterprise fraud detection and prevention with AI/ML, behavioral analytics, orchestration, and case management focused on payments and financial crime. | Enterprise payment fraud + analytics |
+| **[Kount](https://kount.com/)** (Equifax) | Fraud prevention with device intelligence, customizable rules, omnichannel support, and strong reporting. Widely used for e-commerce and digital goods. | Device + rules-based fraud prevention |
+| **[Feedzai](https://feedzai.com/)** | End-to-end financial crime platform covering fraud detection, AML, behavioral analytics, and real-time monitoring for banks, acquirers, and large institutions. | Banking-grade fraud + AML |
+| **[DataDome](https://datadome.co/)** | Bot and online fraud protection focused on stopping automated attacks, scrapers, account takeover, and adversarial traffic in real time. | Bot management + adversarial traffic |
+| **[Castle](https://castle.io/)** | Account security and fraud prevention platform emphasizing device intelligence, risk scoring for login/registration, and privacy-conscious signals. | Account protection + device intelligence |
+
+---
+
+## Open-Source Softwares
+
+Fully production-grade, network-effect-driven open-source fraud prevention platforms (with the global consortium data and chargeback guarantees of commercial vendors) are rare. Strong open-source building blocks exist for transaction monitoring, ML-based detection, device fingerprinting, rules engines, and self-hosted APIs.
+
+### Core Frameworks & Fraud / Risk Platforms
+
+| Project | Description | License | Notes |
+|---------|-------------|---------|-------|
+| **[Jube](https://github.com/jube-home/aml-fraud-transaction-monitoring)** | Open-source AML and fraud detection platform for real-time transaction monitoring, adaptive machine learning, rule-based detection, and case management. | AGPLv3 | One of the more complete open AML/fraud stacks |
+| **[CreditGuard](https://github.com/omsingh-19/CreditGuard)** | Production-oriented credit risk and fraud detection API built with FastAPI, XGBoost, MLflow, JWT auth, and PostgreSQL. | Open source | Strong MLOps-style fraud/credit scoring API |
+| **[FraudProx](https://github.com/makozi/FraudProx)** | Real-time fraud detection API using hybrid LSTM-CNN models, exposed via FastAPI and containerized for deployment. Aimed at mobile financial services. | MIT | Deep-learning fraud detection service |
+| **Open-source fraud detection APIs** (various) | Multiple FastAPI + LightGBM/XGBoost/RandomForest projects providing real-time scoring, SHAP explainability, drift monitoring (Evidently), and Prometheus/Grafana observability. | Mostly MIT/Apache | Practical self-hosted scoring endpoints |
+| **MLOps fraud pipelines** | Community projects combining Kafka streaming, model serving, feedback loops, continuous training, and monitoring for production fraud systems. | Various | End-to-end detection pipelines |
+
+### Specialized Libraries & Related Tools
+
+| Project | Description | Focus Area |
+|---------|-------------|---------|
+| **OpenClientID** | Open-source, self-hostable browser and device fingerprinting for anti-fraud and customer tracking (includes server-side signals). | Device / browser fingerprinting |
+| **FP-Devicer / related fingerprint cores** | Open-source fingerprinting engines with confidence scoring, storage adapters, and extensible comparison logic. | Device intelligence |
+| **RiskEngine (Android)** | Mobile SDK for local device fingerprinting and runtime risk detection (root, hook, emulator, debugging signals). | Mobile device risk |
+| **Rules engines** | Open-source business rules engines (Drools, Easy Rules, custom Python/JS engines) commonly used to implement fraud policies. | Policy & decisioning |
+| **Anomaly detection libraries** | scikit-learn, PyOD, isolation forests, autoencoders, and streaming anomaly tools for unsupervised fraud signals. | Anomaly & outlier detection |
+| **Graph / network analysis** | NetworkX, Neo4j community tools, and graph ML libraries for detecting fraud rings and linked entities. | Entity linking & rings |
+| **Explainability tools** | SHAP, LIME, and related libraries for interpreting model decisions in fraud scoring. | Model transparency |
+
+### Additional Notable Open-Source Tools
+
+- **Feature stores & streaming** — Feast, Kafka, Flink, or simple feature pipelines for real-time risk features (velocity, device history, behavioral signals).
+- **Case management** — Open-source ticket/workflow tools (or custom Django/React dashboards) for analyst review queues.
+- **Bot & automation detection** — Open libraries and heuristics for headless browser, scraper, and automation detection (complementary to DataDome-style protection).
+- **IP / email / phone enrichment** — Public datasets, self-hosted reputation lists, and open APIs that can approximate commercial enrichment signals.
+- **Chargeback & dispute tooling** — Limited open components; most chargeback guarantee and recovery logic remains commercial.
+- **Academic & research models** — Public datasets (e.g., credit-card fraud, synthetic transaction sets) and published models that serve as starting points for custom systems.
+
+**Note:** Commercial platforms derive major advantage from proprietary global networks, chargeback guarantees, large-scale labeled data, and continuously updated threat intelligence. Open-source solutions excel as self-hosted scoring engines, fingerprinting components, rules engines, and ML pipelines that organizations can customize and keep fully under their control. Production deployments frequently combine open components with commercial enrichment or decisioning services.
+
+---
+
+## Quick Start Recommendations
+
+| Goal | Recommended Starting Point |
+|------|---------------------------|
+| Self-hosted AML + fraud transaction monitoring | **Jube** |
+| Production-style ML fraud scoring API | **CreditGuard** or similar FastAPI + XGBoost/LightGBM projects |
+| Deep-learning real-time fraud API | **FraudProx** or custom LSTM/CNN services |
+| Device / browser fingerprinting | **OpenClientID** or open fingerprint cores |
+| Flexible rules + data enrichment | **SEON** (commercial) or open rules engines + self-hosted enrichment |
+| Chargeback guarantee + high approvals | **Signifyd** or **Riskified** |
+| Identity-centric real-time decisioning | **Forter** or **Sift** |
+| Banking / financial crime scale | **Feedzai** |
+| Bot & adversarial traffic protection | **DataDome** |
+| Account protection focus | **Castle** or **Sift** Account Defense |
+| Customizable enterprise rules + device | **Kount** |
+
+---
+
+## Contributing
+
+Contributions, corrections, and new open-source projects are welcome.  
+Please open an issue or pull request.
+
+---
+
+**Last updated:** August 2026  
+Emphasizing open-source tools while documenting the major commercial platforms for context. Fully featured, network-powered open-source fraud prevention platforms remain limited; the strongest options are self-hosted ML scoring APIs, device fingerprinting projects, rules engines, and emerging AML/fraud monitoring systems such as Jube that organizations can extend and operate themselves.
